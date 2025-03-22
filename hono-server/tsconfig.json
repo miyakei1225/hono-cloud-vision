@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
     "strict": true,
+    "lib": ["es2024", "dom"],
     "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx"
-  }
+    "jsxImportSource": "hono/jsx",
+    "outDir": "./dist",
+    "types": ["node"]
+  },
+  "exclude": [
+    "node_modules",
+  ]
 }
