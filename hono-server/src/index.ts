@@ -7,6 +7,8 @@ app.get("/", (c) => {
   return c.text("Hello Hono!");
 });
 
+app.use("/vision");
+
 const port = 8080;
 console.log(`Server running at http://localhost:${port}`);
 
