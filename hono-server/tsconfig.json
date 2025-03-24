@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
     "strict": true,
-    "lib": ["es2024", "dom"],
+    "lib": ["ES2024", "dom"],
+    "target": "es2024",
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
     "outDir": "./dist",
-    "types": ["node"]
+    "types": ["node"],
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",
   },
   "exclude": [
     "node_modules",
